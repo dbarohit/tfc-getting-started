@@ -6,6 +6,7 @@
 variable "provider_token" {
   type = string
   sensitive = true
+  default = "yLgQRzzhmDpSJw.atlasv1.0rrofB9BFyJXO0OIstTQDQWXdJ0jfzPXK89c1ZEQaisaaZBYixTxjeAsRszWLDEgwI4"
 }
 
 provider "fakewebservices" {
